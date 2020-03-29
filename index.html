@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' defer></script>
   <link rel="stylesheet" href="styles.css" />
-  <title>Week 1</title>
+  <title>Week 5</title>
 </head>
 
 <body>
@@ -73,31 +71,31 @@
         </div>
         <div class="navsite">
           <ul class="navcontainer clearfix">
-            <li class="navitem" id="navItem1">
-              <a>小米手机</a>
+            <li class="navitem">
+              <a data-index="0">小米手机</a>
             </li>
             <li class="navitem">
-              <a>Redmi 红米</a>
+              <a data-index="1">Redmi 红米</a>
             </li>
             <li class="navitem">
-              <a>电视</a>
+              <a data-index="2">电视</a>
             </li>
             <li class="navitem">
-              <a>笔记本</a>
+              <a data-index="3">笔记本</a>
             </li>
             <li class="navitem">
-              <a>家电</a>
+              <a data-index="4">家电</a>
             </li>
             <li class="navitem">
-              <a>路由器</a>
+              <a data-index="5">路由器</a>
             </li>
             <li class="navitem">
-              <a>智能硬件</a>
+              <a data-index="6">智能硬件</a>
             </li>
-            <li class="navitem">
+            <li class="navService">
               <a>服务</a>
             </li>
-            <li class="navitem">
+            <li class="navService">
               <a>社区</a>
             </li>
             <li class="search">
@@ -113,39 +111,22 @@
           </ul>
         </div>
       </div>
+
       <div id="product-list" class="container">
-        <!-- <ul>
-          <li class="productItem"><a>
-              <img src="images/xiaomi/mi10-pro.jpg" alt="">
-              <div class="title">小米10 Pro</div>
-              <div class="price">4999元起</div>
-            </a></li>
-          <li class="productItem"><a>
-              <img src="images/xiaomi/mi10.jpg" alt="">
-              <div class="title">小米10</div>
-              <div class="price">3999元起</div>
-            </a></li>
-          <li class="productItem"><a>
-              <img src="images/xiaomi/micc9-pro.jpg" alt="">
-              <div class="title">小米CC9 Pro</div>
-              <div class="price">2599元起</div>
-            </a></li>
-          <li class="productItem"><a>
-              <img src="images/xiaomi/mi10-pro.jpg" alt="">
-              <div class="title">小米9 Pro 5G</div>
-              <div class="price">3699元起</div>
-            </a></li>
-          <li class="productItem"><a>
-              <img src="images/xiaomi/mi10.jpg" alt="">
-              <div class="title">小米CC9</div>
-              <div class="price">1499元起</div>
-            </a></li>
-          <li class="productItem"><a>
-              <img src="images/xiaomi/micc9-pro.jpg" alt="" style="border:0">
-              <div class="title">小米CC9e</div>
-              <div class="price">1099元起</div>
-            </a></li>
-        </ul> -->
+        <ul>
+          <li class="productItem">
+          </li>
+          <li class="productItem">
+          </li>
+          <li class="productItem">
+          </li>
+          <li class="productItem">
+          </li>
+          <li class="productItem">
+          </li>
+          <li class="productItem">
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -154,985 +135,80 @@
     <div class="section1">
       <div class="panel1">
         <ul class="itemList">
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="0">
             <a style="padding-right:100px">手机 电话卡</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="1">
             <a style="padding-right:114px">电视 盒子</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/television/tv1.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv1.jpg" alt="">
-                  <span class="text">小米电视5 65英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv1.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/television/tv2.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv2.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv2.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/television/tv3.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv3.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv3.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="2">
             <a style="padding-right:54px">笔记本 显示器 平板</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/television/tv1.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv1.jpg" alt="">
-                  <span class="text">小米电视5 65英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv1.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/television/tv2.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv2.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv2.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/television/tv3.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv3.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-                <li>
-                  <img src="images/television/tv3.jpg" alt="">
-                  <span class="text">小米电视5 55英寸</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="3">
             <a style="padding-right:100px">家电 插线板</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="4">
             <a style="padding-right:114px">出行 穿戴</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="5">
             <a style="padding-right:100px">只能 路由器</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="6">
             <a style="padding-right:114px">电源 配件</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="7">
             <a style="padding-right:114px">健康 儿童</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="8">
             <a style="padding-right:114px">耳机 音箱</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-            </div>
           </li>
-          <li class="itemCategory">
+          <li class="itemCategory" data-index="9">
             <a style="padding-right:114px">生活 箱包</a>
             <i class='fas'>&#xf105;</i>
-            <div class="children-list clearfix">
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/micc9-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/mi10-pro.jpg" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-              <ul class="children-list-col">
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-                <li>
-                  <img src="images/xiaomi/xiaomicc.png" alt="">
-                  <span class="text">小米10 Pro</span>
-                </li>
-              </ul>
-            </div>
           </li>
         </ul>
+        <div id="children-list"></div>
       </div>
-      <div class="panel2"> </div>
+      <div class="panel2">
+        <div class="slideshow-inner">
+          <div class="mySlides fade">
+            <img src='images/bg-image1.jpg' style='width: 100%;' alt="image1" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src='images/bg-image.jpg' style='width: 100%;' alt="image2" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src='images/bg-image2.jpg' style='width: 100%;' alt="image3" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src='images/bg-image3.jpg' style='width: 100%;' alt="image4" />
+          </div>
+        </div>
+
+        <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+        <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+
+        <div class='dot-container'>
+          <span class="dot" onclick='showSlides(1)'></span>
+          <span class="dot" onclick='showSlides(2)'></span>
+          <span class="dot" onclick='showSlides(3)'></span>
+          <span class="dot" onclick='showSlides(4)'></span>
+        </div>
+      </div>
+
+
     </div>
     <div class="section2 flex-container">
       <div>
@@ -1179,75 +255,31 @@
         <div class="box-top">
           <h2 class="title">小米闪购</h2>
           <div class="arrow">
-            <i class='fas'>&#xf104;</i>
-            <i class='fas'>&#xf105;</i>
+            <i class='fas disabled-i' id="btn-prev" onclick="swipePrev(992, 'prev')">&#xf104;</i>
+            <i class='fas' id="btn-next" onclick="swipePrev(-992, 'next')">&#xf105;</i>
           </div>
         </div>
         <div class="box-btm clearfix">
-          <div class="row">
+          <div class="row" style="display:flex">
             <div class="flash-countdown">
               <div class="round">00:00 场</div>
               <img src="images/flash.png" alt="">
               <div class="desc">距离结束还有</div>
-              <div class="countdown clearfix">
-                <span>00</span>
+              <div id="countdown" class="clearfix">
+                <span class="hours">00</span>
                 <i>:</i>
-                <span>00</span>
+                <span class="minutes">00</span>
                 <i>:</i>
-                <span>00</span>
+                <span class="seconds">00</span>
               </div>
             </div>
             <div class="flash-list">
-              <ul>
-                <li class="item1">
-                  <div class="content">
-                    <img src="images/flash/image1.jpg" alt="" width="160px" height="160px">
-                    <h3 class="title">Redmi 8A 4GB+64GB 珊瑚橙 64GB</h3>
-                    <p class="desc">5000mAh超长续航</p>
-                    <p class="price">
-                      <span>699元</span>
-                      <del>799元</del>
-                    </p>
-                  </div>
-                  </a>
-                </li>
-                <li class="item2">
-                  <div class="content">
-                    <img src="images/flash/image1.jpg" alt="" width="160px" height="160px">
-                    <h3 class="title">Redmi 8A 4GB+64GB 珊瑚橙 64GB</h3>
-                    <p class="desc">5000mAh超长续航</p>
-                    <p class="price">
-                      <span>699元</span>
-                      <del>799元</del>
-                    </p>
-                  </div>
-                  </a>
-                </li>
-                <li class="item3">
-                  <div class="content">
-                    <img src="images/flash/image1.jpg" alt="" width="160px" height="160px">
-                    <h3 class="title">Redmi 8A 4GB+64GB 珊瑚橙 64GB</h3>
-                    <p class="desc">5000mAh超长续航</p>
-                    <p class="price">
-                      <span>699元</span>
-                      <del>799元</del>
-                    </p>
-                  </div>
-                  </a>
-                </li>
-                <li class="item4">
-                  <div class="content">
-                    <img src="images/flash/image1.jpg" alt="" width="160px" height="160px">
-                    <h3 class="title">Redmi 8A 4GB+64GB 珊瑚橙 64GB</h3>
-                    <p class="desc">5000mAh超长续航</p>
-                    <p class="price">
-                      <span>699元</span>
-                      <del>799元</del>
-                    </p>
-                  </div>
-                  </a>
-                </li>
-              </ul>
+              <div class="swipe-wrap">
+                <ul>
+
+                </ul>
+
+              </div>
             </div>
           </div>
         </div>
@@ -1374,9 +406,9 @@
         <div class="box-top clearfix">
           <h2 class="title">家电</h2>
           <div class="more">
-            <ul>
-              <li class="active">热门</li>
-              <li>电视影音</li>
+            <ul id="boxItemList">
+              <li class="active boxItem" data-index="0">热门</li>
+              <li class="boxItem" data-index="1">电视影音</li>
             </ul>
           </div>
         </div>
@@ -1393,84 +425,14 @@
               </ul>
             </div>
             <div class="span2">
-              <ul class="clearfix">
-                <li class="box-item">
-                  <div class="content">
-                    <img src="images/box/hot1.png" alt="" width="160">
-                    <h3 class="title">米家互联网空调C1（一级能效）</h3>
-                    <p class="desc">变频节能省电，自情节</p>
-                    <p class="price">
-                      <span>2399元</span>
-                      <del>2699元</del>
-                    </p>
-                  </div>
-                </li>
-                <li class="box-item">
-                  <div class="content">
-                    <img src="images/box/hot1.png" alt="" width="160">
-                    <h3 class="title">米家互联网空调C1（一级能效）</h3>
-                    <p class="desc">变频节能省电，自情节</p>
-                    <p class="price">
-                      <span>2399元</span>
-                      <del>2699元</del>
-                    </p>
-                  </div>
-                </li>
-                <li class="box-item">
-                  <div class="content">
-                    <img src="images/box/hot1.png" alt="" width="160">
-                    <h3 class="title">米家互联网空调C1（一级能效）</h3>
-                    <p class="desc">变频节能省电，自情节</p>
-                    <p class="price">
-                      <span>2399元</span>
-                      <del>2699元</del>
-                    </p>
-                  </div>
-                </li>
-                <li class="box-item">
-                  <div class="content">
-                    <img src="images/box/hot1.png" alt="" width="160">
-                    <h3 class="title">米家互联网空调C1（一级能效）</h3>
-                    <p class="desc">变频节能省电，自情节</p>
-                    <p class="price">
-                      <span>2399元</span>
-                      <del>2699元</del>
-                    </p>
-                  </div>
-                </li>
-                <li class="box-item">
-                  <div class="content">
-                    <img src="images/box/hot1.png" alt="" width="160">
-                    <h3 class="title">米家互联网空调C1（一级能效）</h3>
-                    <p class="desc">变频节能省电，自情节</p>
-                    <p class="price">
-                      <span>2399元</span>
-                      <del>2699元</del>
-                    </p>
-                  </div>
-                </li>
-                <li class="box-item">
-                  <div class="content">
-                    <img src="images/box/hot1.png" alt="" width="160">
-                    <h3 class="title">米家互联网空调C1（一级能效）</h3>
-                    <p class="desc">变频节能省电，自情节</p>
-                    <p class="price">
-                      <span>2399元</span>
-                      <del>2699元</del>
-                    </p>
-                  </div>
-                </li>
-                <li class="box-item">
-                  <div class="content">
-                    <img src="images/box/hot1.png" alt="" width="160">
-                    <h3 class="title">米家互联网空调C1（一级能效）</h3>
-                    <p class="desc">变频节能省电，自情节</p>
-                    <p class="price">
-                      <span>2399元</span>
-                      <del>2699元</del>
-                    </p>
-                  </div>
-                </li>
+              <ul class="clearfix" id="box-list">
+                <li class="box-item"></li>
+                <li class="box-item"></li>
+                <li class="box-item"></li>
+                <li class="box-item"></li>
+                <li class="box-item"></li>
+                <li class="box-item"></li>
+                <li class="box-item"></li>
                 <li class="box-item box-item-small">
                   <img src="images/box/hotsmall1.png" alt="" width="80">
                   <h3 class="title">Air 13.3" 2019款</h3>
@@ -2039,10 +1001,8 @@
                 <h3 class="title">小米5G新品手机发布会</h3>
               </li>
           </div>
-
         </div>
       </div>
-
     </div>
   </div>
 
@@ -2224,19 +1184,19 @@
         </div>
         <div class="info-links">
           <a rel="nofollow"
-            href="//privacy.truste.com/privacy-seal/validation?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8&lang=zh-cn"
+            href="#"
             target="_blank">
-            <img rel="nofollow" src="//i1.mifile.cn/f/i/17/site/truste.png" alt="TRUSTe Privacy Certification" />
+            <img rel="nofollow" src="images/about/truste.png" alt="TRUSTe Privacy Certification" />
           </a>
-          <a rel="nofollow" href="//search.szfw.org/cert/l/CX20120926001783002010" target="_blank">
-            <img rel="nofollow" src="//s01.mifile.cn/i/v-logo-2.png" alt="诚信网站" />
+          <a rel="nofollow" href="#" target="_blank">
+            <img rel="nofollow" src="images/about/v-logo-2.png" alt="诚信网站" />
           </a>
-          <a rel="nofollow" href="//ss.knet.cn/verifyseal.dll?sn=e12033011010015771301369&ct=df&pa=461082"
+          <a rel="nofollow" href="#"
             target="_blank">
-            <img rel="nofollow" src="//s01.mifile.cn/i/v-logo-1.png" alt="可信网站" />
+            <img rel="nofollow" src="images/about/v-logo-1.png" alt="可信网站" />
           </a>
-          <a rel="nofollow" href="//www.mi.com/service/buy/commitment/" target="_blank">
-            <img rel="nofollow" src="//i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png"
+          <a rel="nofollow" href="#" target="_blank">
+            <img rel="nofollow" src="images/about/ba10428a4f9495ac310fd0b5e0cf8370.png"
               alt="诚信经营 放心消费" />
           </a>
         </div>
@@ -2244,7 +1204,29 @@
       </div>
     </div>
   </footer>
-
+  <script>
+    const wrapper = document.querySelector('.swipe-wrap ul')
+    let myList = ""
+    let itemColor = 1
+    for (let i = 0; i < 18; i++) {
+      if (itemColor > 4)
+        itemColor = 1
+      myList +=
+        `<li class="item${itemColor} ${i === 0 ? "current" : ""} ${itemColor === 1 ? "first" : ""}">
+          <div class="content">
+            <img src="images/xiaomi/mi10-pro.jpg" alt="" width="160px" height="160px">
+            <h3 class="title">Redmi 8A 4GB+64GB 珊瑚橙 64GB</h3>
+            <p class="desc">5000mAh超长续航</p>
+            <p class="price">
+              <span>699元</span>
+              <del>799元</del>
+            </p>
+          </div>
+        </li>`
+      itemColor++
+    }
+    wrapper.innerHTML = myList
+  </script>
 
   <script src="app.js" defer></script>
 </body>
